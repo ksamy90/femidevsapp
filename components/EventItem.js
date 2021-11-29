@@ -3,7 +3,6 @@ import Image from "next/image";
 import styles from "../styles/EventItem.module.css";
 
 export default function EventItem(props) {
-  console.log(props);
   return (
     <div className={styles.event}>
       <div className={styles.img}>
